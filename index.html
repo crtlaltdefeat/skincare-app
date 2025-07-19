@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SkinCare Product Recommender</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>SkinCare Product Recommender</h1>
+
+  <form id="quizForm">
+    <label>Choose your skin concern:</label><br />
+    <select id="concernSelect" required>
+      <option value="">--Select Concern--</option>
+      <option value="acne">Acne</option>
+      <option value="dryness">Dryness</option>
+      <option value="redness">Redness</option>
+      <option value="darkspots">Dark Spots</option>
+    </select>
+    <br /><br />
+    <button type="submit">Get Recommendations</button>
+  </form>
+
+  <div id="results"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
